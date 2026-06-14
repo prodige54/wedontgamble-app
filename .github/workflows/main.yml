@@ -3,7 +3,7 @@
   with:
     host: ${{ secrets.SERVER_IP }}
     username: ${{ secrets.SERVER_USER }}
-    key: ${{ secrets.SSH_PRIVATE_KEY }}
+    key: ${{ secrets.SSH_PRIVATE_KEY1 }}
     hostkey: ${{ secrets.SERVER_HOSTKEY }}
     script: |
       /opt/deploy.sh
